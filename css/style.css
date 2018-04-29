@@ -1,0 +1,17 @@
+#rowDiv{
+	text-align: auto;
+	width: 100%;
+}
+input[type="text"]{
+	font-size: 15px;
+	margin-right: 3px;
+}
+#getWeather{
+	font-size: 15px;
+}
+#errorCity{
+	width:50%;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+}

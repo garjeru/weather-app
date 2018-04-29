@@ -1,0 +1,40 @@
+<!-- HTML page displaying the 5-day weather forecast for a location -->
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Weather forecast Platform</title>
+		
+		<!-- Bootstrap -->
+		<link href="css/lib/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+      
+	</head>
+	<body>
+		<div class="jumbotron" style="height:80px; padding:1rem">
+			<h2 class="text-center" style="font-size:25px; font-weight:600;">Get 5 Days Weather forecast</h2>
+		</div>
+		<div class="container">
+			<div style="margin-bottom:8px;">
+				<h4 class="text-center">Enter city name</h4>
+			</div>
+			<div style="padding:7px;">
+				<span id="error"></span>
+			</div>
+			<div class="form-group form-inline justify-content-center" id="rowDiv">
+				<input type="text" id="city" name="City" class="form-control" placeholder="City Name"/>
+				<button id="getWeather" class="btn">Search City</button>
+			</div>
+			<div>
+				<span id="cityname"></span>
+				<span class="d-flex flex-row" id="show"></span>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="/js/lib/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="/js/lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/weather.js"></script>
+	</body>
+</html>
