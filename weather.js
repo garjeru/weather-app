@@ -4,7 +4,7 @@ $(document).ready(function(){
 		
 		if(city != ''){
 			$.ajax({
-				url: "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=metric" + "&appid=23ec35c3a25064f8f0e1d4b5d676bce9",
+				url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=metric" + "&appid=23ec35c3a25064f8f0e1d4b5d676bce9",
 				type:"GET",
 				dataType:"jsonp",
 				success:function(data){
